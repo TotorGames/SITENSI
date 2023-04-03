@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: burlywood;
+    box-shadow: 0 0 0.5em grey;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+#pr{
+    display: flex;
+    justify-content: center;
+    padding-top:5vh;
+}
+#pr img{
+    border-radius: 2%;
+    width: 20vw;
+    height: auto;
+}
+#pr p{
+    width: 300px;
+    font-family: 'Changa One', cursive;
+    word-spacing: 1.3em;
+    font-size: 1.2em;
+}
+#pr h1{
+    font-family: 'Playfair Display', serif;
+}

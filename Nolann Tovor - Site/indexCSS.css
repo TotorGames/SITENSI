@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+nav{
+    background-color: burlywood;
+    box-shadow: 0 0 0.5em grey;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-family: 'Playfair Display', serif;
+}
+img{
+    padding: 10px;
+}
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17.5%;
+    
+}
